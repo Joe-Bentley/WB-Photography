@@ -3,10 +3,6 @@
 :root{
     --white: #ddd;
     --dark: #111;
-    --darkGrey: #474b4f;
-    --lightGrey: #6b6e70;
-    --lightGreen: #86c232;
-    --darkGreen: #61892f;
     --transition: all 0.5s ease;
 }
 *{
@@ -325,6 +321,56 @@ blockquote span{
 }
 
 /************* end of index.html ***********/
+/**************** gallery.html ***************/
+
+/* section three */
+.gallery-wrapper {
+    background: url('images/camera-background.jpg');
+    height: 800px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    margin-bottom: 5%;
+}
+.gallery-top {
+    text-align: center;
+}
+
+.gallery-top h3{
+    font-size: 28px;
+}
+
+.gallery img {
+    height: 100%;
+    width: 100%;
+}
+
+.section-three{
+    margin: 40px 40px;
+}
+.single-img{
+    position: relative;
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
+.single-img-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    padding: 5px 30px;
+    background: rgba(0, 0, 0, 0.7);
+}
+.single-img-content h3{
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+/************** end of gallery.html ***********/
+
 /******************* Footer Styling *****************/
 
 .footer{
