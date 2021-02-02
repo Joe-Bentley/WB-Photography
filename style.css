@@ -182,7 +182,7 @@ blockquote span{
     display: block;
 }
 .social-icons{
-    width: 350px;
+    width: 150px;
     margin: 40px auto 0 auto;
     padding-bottom: 30px;
 }
@@ -282,12 +282,15 @@ blockquote span{
     text-align: center;
     font-size: 40px;
 }
-.section-two span{
-    color: var(--darkGrey);
+.section-two a {
+    color: #111;
     text-align: center;
     display: block;
     font-size: 20px;
     margin-bottom: 30px;
+}
+.section-two a:hover {
+    text-decoration: underline;
 }
 .insta-imgs{
     display: inline-grid;
@@ -334,19 +337,26 @@ blockquote span{
 }
 .gallery-top {
     text-align: center;
+    margin: 0;
+    height: auto;
 }
 
 .gallery-top h3{
     font-size: 28px;
 }
 
+.gallery {
+    display: grid;
+}
+
 .gallery img {
-    height: 100%;
+    height: 45vh;
     width: 100%;
+    object-fit: cover;
 }
 
 .section-three{
-    margin: 40px 40px;
+    margin: 40px 0px;
 }
 .single-img{
     position: relative;
@@ -361,9 +371,11 @@ blockquote span{
     right: 0;
     color: #fff;
     padding: 5px 30px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.493);
 }
+
 .single-img-content h3{
+    display: contents;
     font-size: 18px;
     font-weight: 300;
     text-transform: uppercase;
@@ -435,6 +447,11 @@ blockquote span{
 }
 .contact-middle div span{
     display: block;
+}
+.contact-middle div:hover {
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+    transition: 0.7s ease;
 }
 .contact-icon{
     font-size: 30px;

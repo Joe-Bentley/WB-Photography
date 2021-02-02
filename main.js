@@ -10,3 +10,5 @@ showBtn.addEventListener('click', function(){
         showBtn.innerHTML = '<i class = "fas fa-times"></i>';
     }
 });
+
+var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
