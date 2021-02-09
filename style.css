@@ -528,6 +528,24 @@ footer a {
   padding: 0 20px;
 }
 
+#status {
+  width: 90%;
+  max-width: auto;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: rgb(37, 37, 37);
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: rgb(255, 103, 57);
+  color: white;
+  animation: status 4s ease forwards;
+}
+
 /************** end of contact.html **********/
 
 /***************** Media Queries *****************/
