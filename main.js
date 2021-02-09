@@ -11,6 +11,12 @@ showBtn.addEventListener('click', function(){
     }
 });
 
+window.oncontextmenu = function (event) {
+  event.preventDefault()
+  event.stopPropagation()
+  return false
+}
+
 // Form section 
 
 window.addEventListener("DOMContentLoaded", function() {
